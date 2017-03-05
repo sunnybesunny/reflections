@@ -1,3 +1,7 @@
 What happens when you initialize a repository?
 
 Answer: It initializes the empty git repository. It doesn't commit any files for me 
+
+How is the staging area different from the working directory and the repository? What values do you think it offers? 
+
+Answer: Staging area is the collections of the files that are to committed together for git, inside the repository, wheareas staging area of the working directory spans all the files inside the directory  

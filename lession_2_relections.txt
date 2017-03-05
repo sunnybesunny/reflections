@@ -1,0 +1,3 @@
+What happens when you initialize a repository?
+
+Answer: It initializes the empty git repository. It doesn't commit any files for me 

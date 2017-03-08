@@ -4,4 +4,20 @@ Answer: It initializes the empty git repository. It doesn't commit any files for
 
 How is the staging area different from the working directory and the repository? What values do you think it offers? 
 
-Answer: Staging area is the collections of the files that are to committed together for git, inside the repository, wheareas staging area of the working directory spans all the files inside the directory  
+Answer: Staging area is the collections of the files that are to be committed together for repository. Whreas working directory is the file up to date with every changes made locally. These changes may have been staged or committed sometimes. 
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Answer: Run two git diff to see the difference betwee staging area and wokring directory. Add or reset files that haven't been staged or mistakenly staged. Next, confirm the selection by git diff --staged to see the difference between the latest commits in the repository and staged changes. Only for go with commit when staged changes are desirable 
+
+What are some situations when branches would be helpful in keeping your history organized? how would branches help? 
+
+Answer: When I'm trying to create different versions of the file, creating branches would help me to keep the records of working versions 
+
+How do the diagrams help you visualize the branch structure?
+
+Answer: it shows the branching points in the commit history and how each branch is derived or precedent the other branch 
+
+Waht is the result of merging two branches together? Why do we represent it in the diagram in the waywe do?
+
+Answer: Merged branch would contain commits from two parent braches.
